@@ -20,7 +20,7 @@ Bitcoin-R provides tools for analyzing Bitcoin blockchain data, market trends, a
 - **Backend**: Python
 - **Frontend**: HTML/JavaScript
 - **Database**: SQL (PostgreSQL)
-- **Search**: Elasticsearch
+- **Search**: Elasticsearch via elastic.co hosting
 - **Testing**: Python unittest framework
 
 ## Project Structure
@@ -57,7 +57,7 @@ bitcoin-r/
 
 ## Development
 
-The project maintains separate environments for development, testing, and production, each with its own database configuration.
+The project maintains separate environments for development, testing, and production, each with its own database configuration and Elasticsearch indexes.
 
 ## Testing
 
